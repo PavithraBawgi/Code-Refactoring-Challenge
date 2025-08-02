@@ -118,3 +118,17 @@ If you have questions about the requirements, please email [anand@retainsure.com
 ---
 
 Remember: We're not looking for perfection. We want to see how you approach real-world code problems, prioritize improvements, and communicate your decisions.
+
+
+Issue Identified and its solution.
+
+1.SQL Injection-Used parameterized queries (? placeholders) instead of f-strings.
+2.Unstructured responses-Replaced str(...) with jsonify(...) for cleaner JSON responses.
+3.No input validation	-Checked for required fields in POST/PUT requests.
+4.Code organization-	Cleaned and modularized code logic for better maintainability..
+5.Error Handling-Did basic Error Handling.
+
+6.Password security can be achived by password hashing.
+
+
+
