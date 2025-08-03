@@ -165,3 +165,14 @@ If you have questions about the requirements, please email [anand@retainsure.com
 ---
 
 Good luck! We're excited to see your solution.
+
+
+URL Shortener Service
+This project is a lightweight URL shortening application inspired by services like Bit.ly and TinyURL. It offers a set of APIs to create shortened URLs, redirect users to the original links, and access basic usage analytics — all implemented using Flask with in-memory storage.
+
+Generate 6-character short codes for long URLs
+Support redirection from short code to original URL
+Maintain and display click statistics and creation time
+Validate all input URLs
+No external database — data is stored in memory
+Comes with a suite of automated tests using pytest

@@ -1,5 +1,8 @@
-# TODO: Implement utility functions here
-# Consider functions for:
-# - Generating short codes
-# - Validating URLs
-# - Any other helper functions you need
+from urllib.parse import urlparse
+
+def validate_url(url):
+    try:
+        parsed = urlparse(url)
+        return all([parsed.scheme in ["http", "https"], parsed.netloc])
+    except:
+        return False
